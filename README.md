@@ -1,7 +1,7 @@
 HORARIO
 =======
 
-Horaria ingenieria de sistemas
+Horario ingenieria de sistemas
 
 
 public class ventana extends javax.swing.JFrame {
