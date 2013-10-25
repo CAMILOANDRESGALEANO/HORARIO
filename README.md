@@ -39,3 +39,21 @@ public class ventana extends javax.swing.JFrame {
     materia comunicacionll = new materia();
     materia constitucion = new materia();
     materia matell = new materia();
+    
+    ///
+    
+    profesor juaquin1 = profesor();
+    profesor wilson =  profesor();
+    profesor joaquin =  profesor();
+    profesor bernabe =  profesor();	
+    profesor sotelo =  profesor();
+    profesor sotelo1 =  profesor();
+    profesor psociohumanistica =  profesor();
+    materia fisicall =  materia();
+    materia programacionl =  materia();
+    materia elementos =  materia();
+    materia matelll =  materia();
+    materia progral =  materia();
+    materia estructuras =  materia();
+    materia sociohumanistica = new materia();
+
