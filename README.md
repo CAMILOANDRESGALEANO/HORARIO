@@ -75,6 +75,58 @@ public class ventana extends javax.swing.JFrame {
     materia fisicalll = new materia();
     materia discretas1 = new materia();
     
+        //
+     profesor esau = new profesor();
+     profesor duvan = new profesor();
+     profesor jorgeq1 = new profesor();
+     profesor jose1 = new profesor();
+     profesor esau1 = new profesor();
+     profesor wilson1 = new profesor();
+     profesor joel3 = new profesor();
+     materia grafica = new materia();
+     materia grafica1 = new materia();
+     materia estadistica = new materia();
+     materia sistemaso= new materia();
+     materia sistemasi = new materia();
+     materia especiales = new materia();
+     materia fisicalv = new materia();
+     //
+     profesor nelly = new profesor();
+     profesor esau2 = new profesor();
+     profesor esau3 = new profesor();
+     profesor carlos1 = new profesor();
+     profesor sotelo4 = new profesor();
+     profesor jose2 = new profesor();
+     profesor maria = new profesor();
+     profesor hector = new profesor ();
+     materia economia = new materia();
+     materia teoria = new materia();
+     materia teoria1 = new materia();
+     materia datos1= new materia();
+     materia bases1 = new materia();
+     materia sofware = new materia();
+     materia contabilidad = new materia();
+     materia metodos = new materia ();
+     //
+     profesor merchan = new profesor();
+     profesor merchan1 = new profesor();
+     profesor ascanio = new profesor();
+     profesor pinvestigacion1 = new profesor();
+     profesor duvan1 = new profesor();
+     profesor jose3 = new profesor();
+     profesor wilson2 = new profesor();
+     profesor carlos2 = new profesor ();
+     materia basesll = new materia();
+     materia bases1ll = new materia();
+     materia administracion = new materia();
+     materia investigacionl= new materia();
+     materia optimizacionl = new materia();
+     materia sofwarell = new materia();
+     materia datosll = new materia();
+     materia electival = new materia ();
+     //
+
+    
         public ventana() {
         initComponents();
             
