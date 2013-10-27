@@ -783,6 +783,34 @@ public class ventana extends javax.swing.JFrame {
             }
         });
 
+        jMenu7.add(jMenuItem94);
+
+        jMenuItem95.setText("Prof. Alfonso B.");
+        jMenuItem95.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem95ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem95);
+
+        jMenu3.add(jMenu7);
+
+        jMenuItem1.setText("Prof. Matematicas l");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem1);
+
+        jMenuItem3.setText("Prof. Carlos V.");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        
+        
 
 
 
