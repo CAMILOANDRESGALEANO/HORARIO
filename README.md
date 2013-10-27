@@ -810,7 +810,287 @@ public class ventana extends javax.swing.JFrame {
             }
         });
         
-        
+        jMenu3.add(jMenuItem3);
+
+        jMenuItem4.setText("Prof. Eva V.");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem4);
+
+        jMenuItem5.setText("Prof. Algebra L.");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem5);
+
+        jMenuItem6.setText("Prof. Catedra U.");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem6);
+
+        jMenuItem7.setText("Prof. Ingles l");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem7);
+
+        jMenuItem8.setText("Prof. Joel V.");
+        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem8ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem8);
+
+        jMenuItem9.setText("Prof. Pedro M.");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem9);
+
+        jMenuItem18.setText("Prof. Ingles ll");
+        jMenuItem18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem18ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem18);
+
+        jMenuItem19.setText("Prof. Jorge R.");
+        jMenuItem19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem19ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem19);
+
+        jMenuItem20.setText("Prof. Jose O.");
+        jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem20ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem20);
+
+        jMenuItem21.setText("Prof. Juaquin R.");
+        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem21ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem21);
+
+        jMenuItem22.setText("Prof. Comunicacion ll");
+        jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem22ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem22);
+
+        jMenuItem23.setText("Prof. Constitucion");
+        jMenuItem23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem23ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem23);
+
+        jMenuItem24.setText("Prof. Jorge Q.");
+        jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem24ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem24);
+
+        jMenuItem33.setText("Prof. Wilson G.");
+        jMenuItem33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem33ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem33);
+
+        jMenuItem34.setText("Prof. Joaquin A.");
+        jMenuItem34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem34ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem34);
+
+        jMenuItem35.setText("Prof. Bernabe B.");
+        jMenuItem35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem35ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem35);
+
+        jMenuItem36.setText("Prof. Fernando S. ");
+        jMenuItem36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem36ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem36);
+
+        jMenuItem37.setText("Prof. Electiva S.");
+        jMenuItem37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem37ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem37);
+
+        jMenuItem45.setText("Prof. Ingles lll");
+        jMenuItem45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem45ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem45);
+
+        jMenuItem53.setText("Prof. Esau P.");
+        jMenuItem53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem53ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem53);
+
+        jMenuItem54.setText("Prof. Duvan O.");
+        jMenuItem54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem54ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem54);
+
+        jMenuItem56.setText("Prof. Nelly G.");
+        jMenuItem56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem56ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem56);
+
+        jMenuItem57.setText("Prof. Maria V.");
+        jMenuItem57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem57ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem57);
+
+        jMenuItem58.setText("Prof Hector R.");
+        jMenuItem58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem58ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem58);
+
+        jMenu1.add(jMenu3);
+
+        jMenu4.setText("MATERIA");
+
+        jMenu6.setText("MAS");
+
+        jMenu8.setText("MAS");
+
+        jMenuItem88.setText("Investigacion ll");
+        jMenuItem88.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem88ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem88);
+
+        jMenuItem89.setText("Optimizacion ll");
+        jMenuItem89.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem89ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem89);
+
+        jMenuItem90.setText("Electiva Basica De Ingenieria ll");
+        jMenuItem90.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem90ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem90);
+
+        jMenuItem91.setText("Formulacion y Evaluacion de Proyectos");
+        jMenuItem91.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem91ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem91);
+
+        jMenuItem96.setText("Electiva Profesional ll");
+        jMenuItem96.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem96ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem96);
+
+        jMenuItem97.setText("Electiva Profesional l");
+        jMenuItem97.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem97ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem97);
+
+        jMenuItem98.setText("Auditoria De Sistemas");
+        jMenuItem98.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem98ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem98);
+
+        jMenuItem99.setText("Modelacion");
+        jMenuItem99.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem99ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem99);
+
+        jMenuItem100.setText("Investigacion lll");
+        jMenuItem100.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem100ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem100);
+
+        jMenuItem101.setText("Gerencia Informatica");
+        jMenuItem101.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem101ActionPerformed(evt);
+            }
+        });
+
 
 
 
