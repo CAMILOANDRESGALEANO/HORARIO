@@ -1606,13 +1606,145 @@ public class ventana extends javax.swing.JFrame {
                 jMenuItem92ActionPerformed(evt);
             }
         });
+        
+        
+                jMenu5.add(jMenuItem92);
 
+        jMenuItem102.setText("SEMESTRE lX");
+        jMenuItem102.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem102ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem102);
 
+        jMenuItem109.setText("SEMESTRE X");
+        jMenuItem109.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem109ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem109);
 
+        jMenu1.add(jMenu5);
 
+        jMenuBar1.add(jMenu1);
 
+        jMenu2.setText("SALIR");
+        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu2ActionPerformed(evt);
+            }
+        });
 
+        jMenuItem110.setText("Salir");
+        jMenuItem110.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem110ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem110);
 
+        jMenuBar1.add(jMenu2);
 
+        setJMenuBar(jMenuBar1);
 
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 873, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {                                       
+              
+    }                                      
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+           tex.setText("");
+          
+        tex.append("NOMBRE: "+pmate.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+pmate.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+pmate.materia.horario);
+    }                                          
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+   tex.setText("");
+  
+   tex.append("MATERIA: "+matel.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+matel.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+matel.profe.nombre);
+    }                                          
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+     tex.setText("");
+     tex.append("NOMBRE: "+carlos.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos1.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos1.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos2.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos2.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos3.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos3.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos4.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos4.materia.horario);
+        
+    }                                          
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        tex.setText("");
+        tex.append("NOMBRE: "+eva.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+eva.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+eva.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+eva1.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+eva1.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+eva2.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+eva2.materia.horario);
+    }                                          
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+            tex.setText("");
+        tex.append("NOMBRE: "+palgebra.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+palgebra.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+palgebra.materia.horario);
+    }                                          
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {                                           
+              tex.setText("");
+        tex.append("NOMBRE: "+pcatedra.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+pcatedra.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+pcatedra.materia.horario);
+    }                          
 
