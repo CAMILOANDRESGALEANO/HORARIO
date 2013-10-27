@@ -1090,6 +1090,235 @@ public class ventana extends javax.swing.JFrame {
                 jMenuItem101ActionPerformed(evt);
             }
         });
+        
+        
+        jMenu8.add(jMenuItem101);
+
+        jMenuItem103.setText("Electiva Profesional lll");
+        jMenuItem103.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem103ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem103);
+
+        jMenuItem104.setText("Proyecto de Grado");
+        jMenuItem104.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem104ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem104);
+
+        jMenuItem105.setText("Electiva Profesional lV");
+        jMenuItem105.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem105ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem105);
+
+        jMenuItem106.setText("Gestion Tegnologica");
+        jMenuItem106.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem106ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem106);
+
+        jMenuItem107.setText("Legislacion De Ingenieria");
+        jMenuItem107.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem107ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem107);
+
+        jMenuItem108.setText("Etica para Ingenieros");
+        jMenuItem108.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem108ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem108);
+
+        jMenu6.add(jMenu8);
+
+        jMenuItem50.setText("Teoria General de Sistemas");
+        jMenuItem50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem50ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem50);
+
+        jMenuItem51.setText("Fisica lll");
+        jMenuItem51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem51ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem51);
+
+        jMenuItem59.setText("Economia");
+        jMenuItem59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem59ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem59);
+
+        jMenuItem60.setText("Computacion Grafica");
+        jMenuItem60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem60ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem60);
+
+        jMenuItem61.setText("Estadistica Y Probabilidad");
+        jMenuItem61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem61ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem61);
+
+        jMenuItem62.setText("Sistemas Operativos");
+        jMenuItem62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem62ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem62);
+
+        jMenuItem63.setText("Matematicas Especiales");
+        jMenuItem63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem63ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem63);
+
+        jMenuItem64.setText("Sistemas de Informacion");
+        jMenuItem64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem64ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem64);
+
+        jMenuItem65.setText("Fisica lV");
+        jMenuItem65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem65ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem65);
+
+        jMenuItem66.setText("Teoria De Control");
+        jMenuItem66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem66ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem66);
+
+        jMenuItem67.setText("Comunicacion de Datos l");
+        jMenuItem67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem67ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem67);
+
+        jMenuItem68.setText("Bases de Datos 1");
+        jMenuItem68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem68ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem68);
+
+        jMenuItem69.setText("Ingenieria de Sofware");
+        jMenuItem69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem69ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem69);
+
+        jMenuItem70.setText("Contabilidad");
+        jMenuItem70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem70ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem70);
+
+        jMenuItem71.setText("Metodos Numericos");
+        jMenuItem71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem71ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem71);
+
+        jMenuItem76.setText("Bases de Datos ll");
+        jMenuItem76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem76ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem76);
+
+        jMenuItem77.setText("Administracion y Gestion");
+        jMenuItem77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem77ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem77);
+
+        jMenuItem78.setText("Investigacion l");
+        jMenuItem78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem78ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem78);
+
+        jMenuItem79.setText("Optimizacion l");
+        jMenuItem79.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem79ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem79);
+
+        jMenuItem80.setText("Ingenieria de Sofware ll");
+        jMenuItem80.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem80ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem80);
+
+        jMenuItem81.setText("Comunicacion de Datos ll");
+        jMenuItem81.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem81ActionPerformed(evt);
+            }
+        });
+        jMenu6.add(jMenuItem81);
+
+        jMenuItem82.setText("Electiva Basica de Ingenieria l");
+        jMenuItem82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem82ActionPerformed(evt);
+            }
+        });
+
 
 
 
