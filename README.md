@@ -1968,3 +1968,69 @@ private void jMenuItem33ActionPerformed(java.awt.event.ActionEvent evt) {
    tex.append(System.getProperty("line.separator"));
    tex.append("PROFESOR :"+fisicall.profe.nombre);
     } 
+    private void jMenuItem39ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    tex.setText("");  
+   tex.append("MATERIA: "+programacionl.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+programacionl.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+programacionl.profe.nombre);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+progral.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+progral.profe.nombre);
+    }                                           
+
+    private void jMenuItem40ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+  tex.setText("");  
+   tex.append("MATERIA: "+elementos.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+elementos.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+elementos.profe.nombre);
+    }                                           
+
+    private void jMenuItem41ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+ tex.setText("");  
+   tex.append("MATERIA: "+matelll.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+matelll.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+matelll.profe.nombre);
+    }                                           
+
+    private void jMenuItem42ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+      tex.setText("");  
+   tex.append("MATERIA: "+estructuras.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+estructuras.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+estructuras.profe.nombre);
+    }                                           
+
+    private void jMenuItem43ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     tex.setText("");  
+   tex.append("MATERIA: "+sociohumanistica.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+sociohumanistica.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+sociohumanistica.profe.nombre);
+    }                                           
+
+    private void jMenuItem44ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+   tex.setText("");
+    tex.append("LUNES\t\tMARTES\t\tMIERCOLES\t\tJUEVES\t\tVIERNES\n");
+    tex.append("Fisica ll\t\tElementos de Computadores\tMatematicas lll\t\tFisica ll\t\tElectiva sociohumanistica\n");
+    tex.append(fisicall.profe.nombre+"\t"+elementos.profe.nombre+"\t"+matelll.profe.nombre+"\t"+fisicall.profe.nombre+"\t"+sociohumanistica.profe.nombre+"\n");
+    tex.append("7-9\t\t7-10\t\t7-9\t\t7-9\t\t7-10\n");
+    tex.append(programacionl.nombrem+"\t\t\t\t"+programacionl.nombrem+"\t\t"+estructuras.nombrem+"\n");
+    tex.append(programacionl.profe.nombre+"\t\t\t"+programacionl.profe.nombre+"\t"+estructuras.profe.nombre+"\n");
+    tex.append("9-11\t\t\t\t9-11\t\t9-11\n");
+    tex.append("\t\t"+matelll.nombrem+"\t\t"+estructuras.nombrem+"\n");
+    tex.append("\t\t"+matelll.profe.nombre+"\t"+estructuras.profe.nombre+"\n");
+    tex.append("\t\t3-6\t\t11-1\n");
+    tex.append(progral.nombrem+"\t\t"+progral.nombrem+"\n");
+    tex.append(progral.profe.nombre+"\t"+progral.profe.nombre+"\n");
+    tex.append("8-10\t\t8-10\n");
+    
+    }  
