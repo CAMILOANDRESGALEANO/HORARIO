@@ -715,6 +715,51 @@ public class ventana extends javax.swing.JFrame {
         tex.setColumns(20);
         tex.setRows(5);
         jScrollPane1.setViewportView(tex);
+        
+        
+                jMenu1.setText("MENU");
+
+        jMenu3.setText("PROFESOR");
+        jMenu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu3ActionPerformed(evt);
+            }
+        });
+
+        jMenu7.setText("MAS");
+
+        jMenuItem73.setText("Prof. Esperanza M.");
+        jMenuItem73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem73ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem73);
+
+        jMenuItem74.setText("Prof. Ascanio H.");
+        jMenuItem74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem74ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem74);
+
+        jMenuItem75.setText("Prof. Investigacion l");
+        jMenuItem75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem75ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem75);
+
+        jMenuItem84.setText("Prof. Oscar B.");
+        jMenuItem84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem84ActionPerformed(evt);
+            }
+        });
+        jMenu7.add(jMenuItem84);
+
 
 
 
