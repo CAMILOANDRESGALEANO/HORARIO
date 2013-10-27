@@ -2142,3 +2142,64 @@ private void jMenuItem33ActionPerformed(java.awt.event.ActionEvent evt) {
         tex.append(System.getProperty("line.separator"));
         tex.append("HORARIO: "+esau4.materia.horario);
     }      
+
+    private void jMenuItem54ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+tex.setText("");
+        tex.append("NOMBRE: "+duvan.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+duvan.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+duvan.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+duvan1.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+duvan1.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+duvan2.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+duvan2.materia.horario); 
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+duvan3.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+duvan3.materia.horario); 
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+duvan4.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+duvan4.materia.horario);
+    }                                           
+
+    private void jMenuItem56ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     tex.setText("");
+        tex.append("NOMBRE: "+nelly.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+nelly.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+nelly.materia.horario);
+    }                                           
+
+    private void jMenuItem57ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+      tex.setText("");
+        tex.append("NOMBRE: "+maria.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+maria.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+maria.materia.horario);
+    }                                           
+
+    private void jMenuItem58ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+      tex.setText("");
+        tex.append("NOMBRE: "+hector.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+hector.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+hector.materia.horario);
+    }                                           
+
+    private void jMenuItem59ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+      tex.setText("");  
+   tex.append("MATERIA: "+economia.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+economia.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+economia.profe.nombre);
+    }    
