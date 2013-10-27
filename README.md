@@ -2203,3 +2203,82 @@ tex.setText("");
    tex.append(System.getProperty("line.separator"));
    tex.append("PROFESOR :"+economia.profe.nombre);
     }    
+    private void jMenuItem60ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+         tex.setText("");  
+   tex.append("MATERIA: "+grafica.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+grafica.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+grafica.profe.nombre);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+grafica1.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+grafica1.profe.nombre);
+    }                                           
+
+    private void jMenuItem61ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+       tex.setText("");  
+   tex.append("MATERIA: "+estadistica.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+estadistica.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+estadistica.profe.nombre);
+    }                                           
+
+    private void jMenuItem62ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+       tex.setText("");  
+   tex.append("MATERIA: "+sistemaso.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+sistemaso.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+sistemaso.profe.nombre);
+    }                                           
+
+    private void jMenuItem63ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     tex.setText("");  
+   tex.append("MATERIA: "+especiales.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+especiales.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+especiales.profe.nombre);
+    }                                           
+
+    private void jMenuItem64ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     tex.setText("");  
+   tex.append("MATERIA: "+sistemasi.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+sistemasi.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+sistemasi.profe.nombre);
+    }                                           
+
+    private void jMenuItem65ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     tex.setText("");  
+   tex.append("MATERIA: "+fisicalv.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+fisicalv.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+fisicalv.profe.nombre);
+    }                                           
+
+    private void jMenuItem66ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    tex.setText("");  
+   tex.append("MATERIA: "+teoria.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+teoria.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+teoria.profe.nombre);
+    tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+teoria1.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+teoria1.profe.nombre);
+    }                                           
+
+    private void jMenuItem67ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        tex.setText("");  
+   tex.append("MATERIA: "+datos1.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+datos1.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+datos1.profe.nombre);
+    }                                           
