@@ -2803,4 +2803,18 @@ tex.setText("");
     private javax.swing.JMenuItem jMenuItem89;
     private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JMenuItem jMenuItem90;
+    private javax.swing.JMenuItem jMenuItem91;
+    private javax.swing.JMenuItem jMenuItem92;
+    private javax.swing.JMenuItem jMenuItem93;
+    private javax.swing.JMenuItem jMenuItem94;
+    private javax.swing.JMenuItem jMenuItem95;
+    private javax.swing.JMenuItem jMenuItem96;
+    private javax.swing.JMenuItem jMenuItem97;
+    private javax.swing.JMenuItem jMenuItem98;
+    private javax.swing.JMenuItem jMenuItem99;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea tex;
+    // End of variables declaration                   
+}
+
 
