@@ -2557,4 +2557,112 @@ tex.setText("");
         tex.append(System.getProperty("line.separator"));
         tex.append("HORARIO: "+castillo.materia.horario); 
     }                   
+    private void jMenuItem95ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+       tex.setText("");
+     tex.append("NOMBRE: "+botero.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+botero.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+botero.materia.horario);
+    }                                           
+
+    private void jMenuItem103ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+   tex.setText("");  
+   tex.append("MATERIA: "+electivaplll.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+electivaplll.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+electivaplll.profe.nombre);
+    }                                            
+
+    private void jMenuItem104ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+         tex.setText("");  
+   tex.append("MATERIA: "+proyecto.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+proyecto.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+proyecto.profe.nombre);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+proyecto1.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+proyecto1.profe.nombre);
+    }                                            
+
+    private void jMenuItem105ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+       tex.setText("");  
+   tex.append("MATERIA: "+electivaplv.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+electivaplv.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+electivaplv.profe.nombre);
+    }                                            
+
+    private void jMenuItem106ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+       tex.setText("");  
+   tex.append("MATERIA: "+gestion.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+gestion.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+gestion.profe.nombre);
+    }                                            
+
+    private void jMenuItem107ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+       tex.setText("");  
+   tex.append("MATERIA: "+legislacion.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+legislacion.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+legislacion.profe.nombre);
+    }                                            
+
+    private void jMenuItem108ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+        tex.setText("");  
+   tex.append("MATERIA: "+etica.nombrem);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("HORARIO: "+etica.horario);
+   tex.append(System.getProperty("line.separator"));
+   tex.append("PROFESOR :"+etica.profe.nombre);
+    }                                            
+
+    private void jMenuItem109ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+      tex.setText("");
+    tex.append("LUNES\t\tMARTES\t\tMIERCOLES\t\tJUEVES\t\tVIERNES\n");
+    tex.append(electivaplll.nombrem+"\t"+electivaplv.nombrem+"\t"+etica.nombrem+"\t"+electivaplv.nombrem+"\n");
+    tex.append(electivaplll.profe.nombre+"\t"+electivaplv.profe.nombre+"\t"+etica.profe.nombre+"\t"+electivaplv.profe.nombre+"\n");
+    tex.append("7-9\t\t8-10\t\t7-10\t\t7-9\n");
+    tex.append(proyecto.nombrem+"\t\t\t\t\t"+proyecto.nombrem+"\n");
+    tex.append(proyecto.profe.nombre+"\t\t\t\t\t"+proyecto.profe.nombre+"\n");
+    tex.append("12-1\t\t\t\t\t\t9-11\n");
+    tex.append(proyecto1.nombrem+"\t"+gestion.nombrem+"\t\t\t"+electivaplll.nombrem+"\t"+legislacion.nombrem+"\n");
+    tex.append(proyecto1.profe.nombre+"\t"+gestion.profe.nombre+"\t\t\t"+electivaplll.profe.nombre+"\t"+legislacion.profe.nombre+"\n");
+    tex.append("12-2\t\t10-1\t\t\t\t11-1\t\t10-1\n");
+    tex.append("\t\t\t\t\t\t"+proyecto1.nombrem+"\n");
+    tex.append("\t\t\t\t\t\t"+proyecto1.profe.nombre+"\n");
+    tex.append("\t\t\t\t\t\t9-1");
+    }                                            
+
+    private void jMenuItem55ActionPerformed(java.awt.event.ActionEvent evt) {                                            
+ tex.setText("");
+    tex.append("LUNES\t\tMARTES\t\tMIERCOLES\t\tJUEVES\t\tVIERNES\n");
+    tex.append(grafica.nombrem+"\t"+especiales.nombrem+"\t"+especiales.nombrem+"\t"+fisicalv.nombrem+"\t\t"+fisicalv.nombrem+"\n");
+    tex.append(grafica.profe.nombre+"\t"+especiales.profe.nombre+"\t"+especiales.profe.nombre+"\t"+fisicalv.profe.nombre+"\t"+fisicalv.profe.nombre+"\n");
+    tex.append("7-9\t\t7-9\t\t7-9\t\t8-10\t\t8-10\n");
+    tex.append(estadistica.nombrem+"\t\t\t"+sistemasi.nombrem+"\t"+grafica.nombrem+"\n");
+    tex.append(estadistica.profe.nombre+"\t\t\t"+sistemasi.profe.nombre+"\t"+grafica.profe.nombre+"\n");
+    tex.append("9-12\t\t\t\t10-12\t\t12-2\n");
+    tex.append(sistemaso.nombrem+"\t"+sistemasi.nombrem+"\t\t\t"+sistemaso.nombrem+"\n");
+    tex.append(sistemaso.profe.nombre+"\t"+sistemasi.profe.nombre+"\t\t\t"+sistemaso.profe.nombre+"\t"+"\n");
+    tex.append("2-4\t\t2-4\t\t\t\t2-4\n");
+    tex.append("\t\t"+grafica1.nombrem+"\t"+grafica1.nombrem+"\n");
+    tex.append("\t\t"+grafica1.profe.nombre+"\t"+grafica1.profe.nombre+"\n");
+    tex.append("\t\t11-1\t\t7-9");     
+    }                                           
+
+    private void jMenuItem110ActionPerformed(java.awt.event.ActionEvent evt) {                                             
+    System.exit(0);
+    }                                            
+
+    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        // TODO add your handling code here:
+    }  
 
